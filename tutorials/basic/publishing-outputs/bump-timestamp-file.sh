@@ -6,7 +6,7 @@ set -x # print commands
 git clone resource-gist updated-gist
 
 cd updated-gist
-date > bumpme
+echo "hellookokokol" >> README.md
 
 git config --global user.email "nobody@concourse-ci.org"
 git config --global user.name "Concourse"
